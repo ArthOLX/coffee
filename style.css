@@ -419,6 +419,7 @@ footer{
 footer .social-media{
     align-items: center;
     text-align: center;
+    padding-top: 30px;
 }
 
 footer .social-media::after{
