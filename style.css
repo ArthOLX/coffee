@@ -198,10 +198,11 @@ header .menu .navigation ul li a:hover {
 
 .second-section .row .content .btn {
     width: 140px;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 8px;
+    margin-top: 15px;
     background-color: #af9a85;
     transition: .4s;
+    border: none;
 }
 
 .second-section .row .content .btn a {
