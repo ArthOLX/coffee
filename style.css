@@ -245,15 +245,17 @@ header .menu .navigation ul li a:hover {
 
 .third-section .box-container {
     display: grid;
+    margin: 0 60px;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
 }
 
 .third-section .box-container .box {
-    margin-top: 60px;
+    margin-top: 30px;
+   
     text-align: center;
     border: 2px solid #a7a7a752;
-    padding: 30px;
+    padding: 20px;
     transition: linear .3s;
 }
 
