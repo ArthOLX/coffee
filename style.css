@@ -93,6 +93,12 @@ header .menu .navigation ul li a:hover {
     border-bottom: 2.2px solid #af9a85;
 }
 
+ul:hover li a:not(:hover){
+    color: white;
+    opacity: 0.3;
+    filter: blur(0.80);
+}
+
 .first-section {
     display: flex;
     align-items: center;
@@ -135,6 +141,7 @@ header .menu .navigation ul li a:hover {
     background-color: #ffffff;
     border: none;
     color: #000000;
+    cursor: pointer;
     transition: .5s;
 }
 
@@ -248,11 +255,12 @@ header .menu .navigation ul li a:hover {
     margin: 0 60px;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
+  
 }
 
 .third-section .box-container .box {
     margin-top: 30px;
-   
+    border-radius: 20px;
     text-align: center;
     border: 2px solid #a7a7a752;
     padding: 20px;
