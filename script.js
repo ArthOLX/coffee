@@ -1,4 +1,4 @@
-let animation = gsap.timeline();
+const animation = gsap.timeline();
 
 animation.to(".menu", {
     y: 0,

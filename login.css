@@ -122,6 +122,7 @@ nav .navigation ul li a:hover {
 }
 
 .password p span {
+    text-decoration: underline;
     color: rgb(179, 98, 61);
 }
 
