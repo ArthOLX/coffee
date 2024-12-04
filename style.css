@@ -451,60 +451,6 @@ footer .social-media::after {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width:768px) {
 
     body {
@@ -598,21 +544,14 @@ footer .social-media::after {
 }
 
 
+@media (max-width:1600px) {
 
-
-
-@media screen and (min-width:768px) and (max-width:1600px) {
-
-    body {
-        height: 100vh;
-        overflow-y: hidden;
+    main{
+        overflow-x: hidden;
     }
 
     nav .menu {
-        margin: 20px auto;
-        width: 85vw;
-        justify-content: space-between;
-        gap: 50%;
+        width: 100%;
     }
 
     nav .navigation {
@@ -627,30 +566,43 @@ footer .social-media::after {
     }
 
     .first-section {
-        width: 100vw;
-        margin-top: 5%;
-        gap: 8%;
+        height: 90vh;
+       
     }
 
-    .first-section .principal h1 {
-        width: 50vw;
-        font-size: 2rem;
-        margin-top: 1em;
-        line-height: 3.1rem;
+    .first-section .principal{
+       position: absolute;
+        top: 40%;
+    }
+
+    .first-section .principal .titulo-principal{
+        width: 100%;
+        font-size: 4rem;
+        line-height: 4.3rem;
     }
 
     .first-section .principal p {
-        width: 50vw;
-        margin: 0 auto;
         margin-top: 20px;
     }
 
-
-    .first-section .imagem img {
-        text-align: center;
-        width: 395px;
-        height: 350px;
-
+    .second-section{
+        height: 90vh;
     }
 
+    .third-section .box-container{
+        width: 90%;
+        height: 100vh;
+    }
+
+    .fourth-section{
+        padding-top: 10%;
+    }
+
+    .fourth-section .box-container .box{
+        width: 400px;
+    }
+
+    .last-section .title{
+        padding-top: 80px;
+    }
 }
